@@ -76,7 +76,7 @@
         "display": "block",
         "pointerEvents": "none",
         "z-index": "10000000",
-        "fontSize": "20px",
+        "fontSize": "10px",
         "will-change": "transform"
       };
   
@@ -87,7 +87,7 @@
           y: 1
         };
   
-        this.position = {x: x - 10, y: y - 20};
+        this.position = {x: x - 2, y: y - 13};
         this.initialStyles.color = color;
         console.log(color);
   
